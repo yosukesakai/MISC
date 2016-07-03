@@ -1,9 +1,9 @@
 #Open Street Map を利用して、新たに制作したコンテンツのクレジットとライセンスについて
 (Currentrly Japanese Only)
 
-Open Street Map(OSM) を利用した新たなコンテンツ(地図)を公開するときのクレジット表記やライセンス等について検討しました。  
+Open Street Map(OSM) の地理データを利用した新たなコンテンツ(地図)を公開するときの、クレジット表記やライセンス等について検討しました。  
 
-ある地域のOSMの地図画像に、オリジナルの写真やグラフィックなどを追加して、新たなコンテンツ(地図)を制作した場合を想定しています。公開には、ウェブだけでなく、印刷物の出版や展示も含みます。    
+OSMの地理データから生成した(OSMの地理データをダウンロードしローカルで生成した)ある地域の地図画像に、オリジナルの写真やグラフィックなどを追加して、新たなコンテンツ(地図)を制作した場合を想定しています(**注1**)。公開には、ウェブだけでなく、印刷物の出版や展示も含みます。    
 
 これは、あるプロジェクトのために制作したドキュメントですが、他のプロジェクトでも利用できると考えられるため、共有します。  
 
@@ -11,10 +11,16 @@ OSMのデータはOpen Database License (ODbL) v1.0が適用されており、�
 
 2014/10/28  
 
+**注1** ウェブサイト(openstreetmap.org)で表示される地図画像を利用する場合は、様子が違うようです。  
+"**地図タイル**を使用する場合は、**地図製作**が **CC BY-SA** としてライセンスされていることを明確にしなければなりません"、とされています(https://www.openstreetmap.org/copyright)(CCLのバージョンは不明ですが)。ここでいう地図タイルとは、openstreetmap.orgで表示される地図画像のことと思われます(**地図製作**は、ここでは製作された地図と解釈しています)。openstreetmap.**jp**で表示される地図は、明示的にCC BY-SAでライセンスされています。これらを利用する際は、CC BY-SAに従えばOKでしょう(バージョンは不明ですが)。  
+
+つまり、ユーザがOSMの地図データから生成した地図と、ウェブサイト(openstreetmap.org)で表示される地図(ブラウザで表示された地図をスクリーンキャプチャしたものなど)は、異なるライセンスが用いられている、ということのようです。  
+
+なお、地図タイルの**作成法やドキュメント**はCC BY-SA(2.0)です。ややこしいですね。  
 
 
 ##結論
-OSMにもとづいて制作した地図には、以下を表示します(CC BY-SAを適用する場合)。  
+OSMの地理データにもとづいて制作した地図には、以下を表示します(CC BY-SAを適用する場合)。  
 
 **地図の名前** by **新たなコンテンツの制作者** and OpenStreetMap Contributors is licensed under a Creative Commons Attribution­ShareAlike 4.0 International License.  
 Contains information from Open Street Map (openstreetmap.org), which is made available here under the Open Database License (ODbL) (opendatacommons.org/licenses/odbl/1.0/).  
@@ -73,7 +79,7 @@ To Adapt: To modify, transform and build upon the database.
 
 As long as you:  
 
-Attribute: You must **attribute** any public use of the database, or **works produced from the database**, in the manner specified in the ODbL. For any use or
+Attribute: You **must attribute** any public use of the database, or **works produced from the database**, in the manner specified in the ODbL. For any use or
 redistribution **of** the database, or **works produced from it**, you **must make clear to others the license** of the database and keep intact any notices on the original database. 
  
 Share­Alike: If you publicly use any adapted version of this database, or works produced from an adapted database, you must also offer that adapted database
@@ -93,14 +99,13 @@ has no legal value, and its contents do not appear in the actual license. Read t
 Open Database License (ODbL) v1.0  
 http://opendatacommons.org/licenses/odbl/1.0/  
 
-#####4.0 Conditions of Use   
+4.0 Conditions of Use   
 
 4.3 Notice for using output (Contents). Creating and Using a Produced Work does not require the notice in Section 4.2. However, if you Publicly Use a Produced Work, You must include a notice associated with the Produced Work reasonably calculated to make any Person that uses, views, accesses, interacts with, or is otherwise exposed to the Produced Work aware that Content was obtained from the Database, Derivative Database, or the Database as part of a Collective Database, and that it is available under this License.
   
 a. Example notice. The following text will satisfy notice under Section 4.3:  
 
-**Contains information from DATABASE NAME, which is made available
-here under the Open Database License (ODbL).** 
+Contains information from DATABASE NAME, which is made available here under the Open Database License (ODbL).
 
 
 DATABASE NAME should be replaced with the name of the Database and a hyperlink to the URI of the Database. “Open Database License” **should contain a hyperlink to the URI of the text of this License**. If hyperlinks are not possible, You should **include the plain text of the required URI’s with the above notice**.  
